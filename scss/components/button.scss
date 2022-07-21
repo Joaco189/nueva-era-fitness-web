@@ -9,5 +9,6 @@
         background-color: $primaryHover;
         transform: translateY(1px);
         transition: .3s;
+        color: map-get($greyscale, clr-white);  
     }
 }

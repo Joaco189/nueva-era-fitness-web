@@ -183,17 +183,18 @@ li {
   margin: 0;
 }
 
-.button, .errorSection .buttonError, .buttonContacto, .buttonEscribime {
+.button, .errorSection .buttonError, .buttonContacto, .buttonEscribime, .buttonPlanes {
   border: none;
   border-radius: 15px;
   padding: 0.2rem 1.5rem;
   background-color: #ff6666;
   color: #ffffff;
 }
-.button:hover, .errorSection .buttonError:hover, .buttonContacto:hover, .buttonEscribime:hover {
+.button:hover, .errorSection .buttonError:hover, .buttonContacto:hover, .buttonEscribime:hover, .buttonPlanes:hover {
   background-color: #ff4d4d;
   transform: translateY(1px);
   transition: 0.3s;
+  color: #ffffff;
 }
 
 .asideWhatsapp {
@@ -419,6 +420,10 @@ li {
   margin-top: -95px;
   font-size: 2rem;
   font-family: "Baloo 2", cursive;
+}
+
+.buttonPlanes {
+  padding: 0.4rem 1.5rem;
 }
 
 @media (min-width: 768px) {

@@ -33,6 +33,11 @@
     }
 }
 
+.buttonPlanes{
+    @extend .button;
+    padding: .4rem 1.5rem;
+}
+
 .buttonEscribime{
     @extend .button;
     @include md-bootstrap{

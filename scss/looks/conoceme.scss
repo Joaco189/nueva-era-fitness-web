@@ -28,6 +28,9 @@
     
     img{
         width: 18.5rem;
+        @include smallPhone{
+            width: 15.5rem;
+        }
         @include lg-bootstrap{
             width: 22rem;
             margin-top: 50px;
@@ -54,6 +57,9 @@
 
     img{
         width: 18.5rem;
+        @include smallPhone{
+            width: 15.5rem;
+        }
         @include lg-bootstrap{
             width: 25.5rem;
         }

@@ -8,6 +8,10 @@
     font-family: $ff-raleway;
     font-weight: 600;
 
+    @include smallPhone{
+        display: none;
+    }
+
     @include modernPhone{
         font-size: 1.6rem;
     }
@@ -19,6 +23,13 @@
     &:hover{
         color: $secondaryHover;
         transition: color .3s;
+    }
+}
+
+.smallNav{
+    display: none;
+    @include smallPhone{
+        display: flex;
     }
 }
 

@@ -1,3 +1,9 @@
+@mixin smallPhone {
+    @media (max-width:310px){
+        @content;
+    }
+}
+
 @mixin modernPhone {
     @media (min-width:400px){
         @content;

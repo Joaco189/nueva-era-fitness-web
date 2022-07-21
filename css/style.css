@@ -33,6 +33,11 @@ li {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
+@media (max-width: 310px) {
+  .navbar-brand {
+    display: none;
+  }
+}
 @media (min-width: 400px) {
   .navbar-brand {
     font-size: 1.6rem;
@@ -46,6 +51,15 @@ li {
 .navbar-brand:hover {
   color: #2f8ab4;
   transition: color 0.3s;
+}
+
+.smallNav {
+  display: none;
+}
+@media (max-width: 310px) {
+  .smallNav {
+    display: flex;
+  }
 }
 
 .navbar-nav {
@@ -340,6 +354,11 @@ li {
 .conocemeImage img {
   width: 18.5rem;
 }
+@media (max-width: 310px) {
+  .conocemeImage img {
+    width: 15.5rem;
+  }
+}
 @media (min-width: 992px) {
   .conocemeImage img {
     width: 22rem;
@@ -369,6 +388,11 @@ li {
 }
 .conocemeTitleImage img {
   width: 18.5rem;
+}
+@media (max-width: 310px) {
+  .conocemeTitleImage img {
+    width: 15.5rem;
+  }
 }
 @media (min-width: 992px) {
   .conocemeTitleImage img {
@@ -420,6 +444,10 @@ li {
   margin-top: -95px;
   font-size: 2rem;
   font-family: "Baloo 2", cursive;
+}
+.pasos h4 {
+  min-width: 14rem;
+  text-align: center;
 }
 
 .buttonPlanes {

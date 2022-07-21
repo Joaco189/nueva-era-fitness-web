@@ -1,0 +1,38 @@
+.errorSection{
+    margin: 3rem 0;
+    @include md-bootstrap{
+        margin: 10rem 0;
+    }
+    img{
+        width: 5rem;
+        animation: latido 5s infinite;
+        @keyframes latido {
+            from { transform: none; }
+            50% { transform: scale(1.1); }
+            to { transform: none; }
+        }
+        @include sm-bootstrap{
+            width: 8rem;
+        }
+        @include md-bootstrap{
+            width: 10rem;
+        }
+    }
+
+    h1{
+        @include md-bootstrap{
+            font-size: 3rem;
+        }
+    }
+
+    p{
+        @include md-bootstrap{
+            font-size: 1.2rem;
+        }
+    }
+
+    .buttonError{
+        @extend .button;
+        padding: 0.5rem 3rem;
+    }
+}   

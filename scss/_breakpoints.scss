@@ -4,6 +4,12 @@
     }
 }
 
+@mixin sm-bootstrap {
+    @media (min-width:576px){
+        @content;
+    }
+}
+
 @mixin md-bootstrap {
     @media (min-width:768px){
         @content;

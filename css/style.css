@@ -15,10 +15,6 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style-type: none;
-}
-
 .img {
   width: 100%;
 }
@@ -153,6 +149,7 @@ li {
 }
 .footerNavigationList li {
   padding: 10px;
+  list-style: none;
 }
 .footerNavigationList li a {
   font-size: 1.1rem;
